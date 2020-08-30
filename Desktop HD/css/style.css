@@ -1,0 +1,51 @@
+*::first-letter {
+    text-transform: uppercase;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+.header-banner {
+    background-image: url(../img/header-banner.jpg);
+    width: 1438px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header-banner-logo {
+    margin-top: 27px;
+}
+.header-banner-title {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Abhaya Libre', serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 5.71px;
+    margin-top: 309px;
+    margin-left: 14px;
+    margin-bottom: 0;
+}
+.header-banner-description {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 2px;
+}
+.header-banner-link-scroll {
+    margin-top: 225px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 3.7px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    padding-bottom: 72px;
+}
+.header-banner-link-scroll:hover {
+    color:#00a4e5;
+}
