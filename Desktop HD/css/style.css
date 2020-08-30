@@ -8,11 +8,11 @@
 }
 .header-banner {
     background-image: url(../img/header-banner.jpg);
-    max-width: 1440px;
     height: 768px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1440px;
     background-position: center center;
 }
 .header-banner-logo-link {
@@ -92,6 +92,7 @@
    margin-right: 29px; 
 }
 .header-menu-nav-item-link {
+    display: inline-block;
     color:#48555B;
     text-decoration: none;
     text-transform: uppercase;
@@ -100,9 +101,14 @@
     letter-spacing: 1.09px;
 }
 .header-menu-nav-item-link:hover {
-    /* position: absolute;
-    top:0;
-    right: 0; */
-    color: #00A4E5;
     font-weight: 700;
+    color: #00A4E5;
+}
+.header-menu-nav-item-link:before{
+    display: block;
+    content: attr(title);
+    font-weight: 700;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
